@@ -1,0 +1,70 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+#main {
+    display: grid;
+    grid-template-rows: 1fr 6fr;
+    height: 100vh;
+    width: 100vw;
+}
+
+#top {
+    display: grid;
+    grid-template-columns: 7fr 1fr;
+    align-items: center;
+    padding-left: 50px;
+    padding-right: 50px;
+    outline: 1px solid black;
+}
+
+.title {
+    font-size: 5em;
+    font-weight: 600;
+}
+
+img {
+    height: 100px;
+}
+
+.name {
+    font-size: 2em;
+}
+#top > .right {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#bottom {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding-left: 75px;
+    padding-right: 75px;
+    outline: 1px solid black;
+}
+
+#bottom > .buttons {
+    display: flex;
+    justify-content: space-between;
+}
+
+#bottom > .books {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    text-align: center;
+    overflow-y: auto;
+    height: 30vh;
+}
+
+#bottom > .books > div {
+    height: 100px;
+    line-height: 100px;
+    min-width: 20%;
+    margin: 20px;
+    outline: 1px solid black;
+}
+
+
