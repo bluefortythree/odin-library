@@ -51,7 +51,7 @@ img {
     justify-content: space-between;
 }
 
-#bottom > .books {
+#bottom > #books {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
     text-align: center;
@@ -59,12 +59,38 @@ img {
     height: 30vh;
 }
 
-#bottom > .books > div {
+#bottom > #books > div {
     height: 100px;
     line-height: 100px;
     min-width: 20%;
     margin: 20px;
     outline: 1px solid black;
+}
+
+#pop-up {
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+}
+
+form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+form > fieldset > div {
+   display: flex;
+   justify-content: space-between;
+   margin-bottom: 10px;
+}
+form > fieldset > div > input {
+   width: 200px;
+   margin-left: 50px;
 }
 
 

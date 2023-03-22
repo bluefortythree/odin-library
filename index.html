@@ -21,36 +21,35 @@
     </div>
     <div id="bottom">
         <div class="buttons">
-            <button>add book</button>
-            <button>search</button>
+            <button id="add">add book</button>
+            <button id="search">search</button>
         </div>
-        <div class="books">
-            <div>book 1</div>
-            <div>book 2</div>
-            <div>book 3</div>
-            <div>book 4</div>
-            <div>book 5</div>
-            <div>book 6</div>
-            <div>book 7</div>
-            <div>book 8</div>
-            <div>book 9</div>
-            <div>book 10</div>
-            <div>book 11</div>
-            <div>book 12</div>
-            <div>book 13</div>
-            <div>book 14</div>
-            <div>book 15</div>
-            <div>book 16</div>
-            <div>book 17</div>
-            <div>book 18</div>
-            <div>book 19</div>
-            <div>book 20</div>
-            <div>book 21</div>
-            <div>book 22</div>
-            <div>book 23</div>
-            <div>book 24</div>
+        <div id="books">
         </div>
     </div>
+</div>
+<div id="pop-up">
+    <form action="">
+        <fieldset>
+            <legend>Add a New Book</legend>
+            <div>
+                <label for="author">Author:</label>
+                <input type="text" id="author" name="author" maxlength=50 required>    
+            </div>
+            <div>
+                <label for="title">Title:</label>
+                <input type="text id=title" name="title" maxlength=50 required>    
+            </div>
+            <div>
+                <label for="pages">Number of pages:</label>
+                <input type="number" id="pages" name="pages" min=0 max=99999 required>
+            </div>
+            <div>
+                <label for="read">Read?</label>
+                <input type="checkbox" id="read" name="read">    
+            </div>
+        </fieldset>
+    </form>    
 </div>
 </body>
 </html>
