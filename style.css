@@ -74,6 +74,7 @@ img {
     left: 0;
     height: 100%;
     width: 100%;
+    display: none;
 }
 
 form {
@@ -91,6 +92,12 @@ form > fieldset > div {
 form > fieldset > div > input {
    width: 200px;
    margin-left: 50px;
+}
+
+#confirm,
+#cancel {
+    margin: 0;
+    width: 100%;
 }
 
 
