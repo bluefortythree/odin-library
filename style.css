@@ -154,3 +154,33 @@ label {
     margin-bottom: 10px;
     margin-top: auto;
 }
+
+#add {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: 150px;
+    font-size: 16px;
+}
+
+#container {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+#read-indicator,
+#not-read-indicator {
+    outline: 1px solid black;
+    font-size: 20px;
+    width: 150px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+#read-indicator {
+    background-color: rgb(183, 225, 205);
+}
+
+#not-read-indicator {
+    background-color: rgb(244, 199, 195);
+}
